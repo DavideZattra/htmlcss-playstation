@@ -1,0 +1,22 @@
+.ms_filler{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid pink;
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+[class*="col"] {
+    color: royalblue;
+    text-align: center;
+}
+
+/* CAROUSEL STYLE */
+#ms_carousel{
+    height: 70vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
