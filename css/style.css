@@ -1,4 +1,4 @@
-.ms_filler{
+/* .ms_filler{
     height: 400px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid pink;
@@ -6,12 +6,32 @@
 
 .row{
     background-color: rgba(0, 0, 0, 0.2);
-}
+} */
 
-[class*="col"] {
+/* [class*="col"] {
     color: royalblue;
     text-align: center;
+} */
+
+/* IMPORTANT!!! 
+    HEADER-SECTION */
+
+/* SONY-LOGO STYLE */
+#ms_sony-logo{
+    padding: 5px 10px;
+    background-color: black;
 }
+
+#ms_sony-logo img{
+    width: 75px;
+    text-align: end;
+}
+
+/* PS-NAV STYLE */
+
+
+/* IMPORTANT!!! 
+    MAIN-SECTION */
 
 /* CAROUSEL STYLE */
 #ms_carousel{
@@ -21,3 +41,30 @@
     background-size: cover;
     background-position: center;
 }
+
+/* PS-LIST STYLE */
+/* HERO STYLE */
+/* NEW-EXITS STYLE */
+#ms_new-exits{
+    background-color: rgba(31,31,31,255);
+}
+/* EXPLORE STYLE */
+/* BANNER-PS-PLUS STYLE */
+#ms_banner-ps-plus{
+    background-color: rgba(190,188,187,255);
+}
+/* DISCOUNT STYLE */
+/* BANNER-PS-NOW STYLE */
+#ms_banner-ps-now{
+    background-color: rgba(22,28,59,255);
+}
+/* SOCIAL MEDIA SECTION */
+
+
+/* IMPORTANT!!! 
+    FOOTER-SECTION */
+footer{
+    background-color: rgba(0,67,156,255);
+}
+/* LINKS STYLE */
+/* CREDITS STYLE */
