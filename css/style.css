@@ -113,8 +113,17 @@ body{
 
 /* IMPORTANT!!! 
     FOOTER-SECTION */
-footer{
+#footer-container{
     background-color: rgba(0,67,156,255);
 }
 /* LINKS STYLE */
+
+#ms_links ul{
+    list-style: none;
+
+}
+
 /* CREDITS STYLE */
+#ms_ps-credits img{
+    width: 150px;
+}
