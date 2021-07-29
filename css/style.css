@@ -16,6 +16,13 @@ body{
     color: royalblue;
     text-align: center;
 } */
+.ms_rounded-15{
+    border-radius: 15px;
+}
+
+.ms_hundred-img{
+    width: 100%;
+}
 
 .ms_sixty-img{
     width: 60%;
