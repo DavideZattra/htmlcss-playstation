@@ -2,20 +2,33 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .ms_filler{
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid pink;
+/* IMPORTANT!!! 
+    GENERAL CLASS STYLE */
+.ms_btn{
+    font-weight: 400;
+    border-radius: 25px;
+}
+    
+.ms_btn-buy-now{
+    background-color: rgba(205,61,15,255);
+    color: white;
 }
 
-.row{
-    background-color: rgba(0, 0, 0, 0.2);
-} */
+.ms_btn-discover-more{
+    background-color: rgba(45,100,230,255);
+    color: white;
+}
 
-/* [class*="col"] {
-    color: royalblue;
-    text-align: center;
-} */
+.ms_btn-plus{
+    background-color: rgba(217,218,220,255);
+    color: rgba(55,107,229,255);
+}
+
+.ms_btn-psnow{
+    background-color: rgba(245,245,245,255);
+    color: black;
+}
+
 .ms_rounded-15{
     border-radius: 15px;
 }
