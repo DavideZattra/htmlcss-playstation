@@ -22,11 +22,17 @@ body{
     /* border-bottom: 2px solid rgba(175,210,239,255); */
 }
 
+
 .ms_btn{
     font-weight: 400;
     border-radius: 25px;
 }
-    
+
+.ms_btn-access{
+    background-color: rgba(54,54,54,255);
+    color: white;
+}
+
 .ms_btn-buy-now{
     background-color: rgba(205,61,15,255);
     color: white;
@@ -71,7 +77,12 @@ body{
 }
 
 /* IMPORTANT!!! 
-    HEADER-SECTION */
+HEADER-SECTION */
+
+.ms_navbar-image{
+    height: 25px;
+    margin-left: 5px;
+}
 
 /* SONY-LOGO STYLE */
 #ms_sony-logo{
@@ -103,7 +114,7 @@ body{
 #ms_jumbotron-games .ms_jumbotron-game-image{
     padding: 1.5px;
     border-radius: 18px;
-    border: 2px solid transparent;
+    border: 3px solid transparent;
 }
 
 #ms_jumbotron-games img{
