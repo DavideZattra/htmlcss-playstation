@@ -140,9 +140,18 @@ HEADER-SECTION */
     background-color: rgba(31,31,31,255);
 }
 /* EXPLORE STYLE */
+#ms_explore h2{
+    font-size: 2.1em;
+    font-weight: 500;
+}
+
 /* BANNER-PS-PLUS STYLE */
 #ms_banner-ps-plus{
     background-color: rgba(190,188,187,255);
+}
+
+#ms_banner-ps-plus .ms_hundred-img{
+    height: 100%;
 }
 /* DISCOUNT STYLE */
 #ms_discount{
@@ -187,9 +196,10 @@ HEADER-SECTION */
     #ms_ps-list div.ms_opacity-7:hover{
         opacity: 1;
         border-bottom: 2px solid rgba(175,210,239,255);
-        
+        cursor: pointer;
     }
 
     #ms_jumbotron-games .ms_jumbotron-game-image:hover{
         border-color: rgba(63,148,218,255);
+        cursor: pointer;
     }
