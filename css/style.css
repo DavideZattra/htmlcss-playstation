@@ -4,6 +4,24 @@ body{
 
 /* IMPORTANT!!! 
     GENERAL CLASS STYLE */
+.ms_text-blue{
+    color: rgba(19,124,209,255);
+}
+
+.ms_text-gray{
+    color: rgba(115,115,115,255);
+}
+
+.ms_opacity-7{
+    opacity: 0.7;
+}
+
+.ms_border-bt{
+    border-bottom: 2.5px solid transparent;
+
+    /* border-bottom: 2px solid rgba(175,210,239,255); */
+}
+
 .ms_btn{
     font-weight: 400;
     border-radius: 25px;
@@ -27,6 +45,17 @@ body{
 .ms_btn-psnow{
     background-color: rgba(245,245,245,255);
     color: black;
+}
+
+.ms_centered{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ms_p-top-bottom-25{
+    padding: 25px 0 25px;
 }
 
 .ms_rounded-15{
@@ -71,9 +100,10 @@ body{
 }
 
 /* JUMBOTRON-GAMES STYLE */
-#ms_jumbotron-games .row>div{
-    /* border: 2px solid rgba(15,122,209,255);
-    border-radius: 15px; */
+#ms_jumbotron-games .ms_jumbotron-game-image{
+    padding: 1.5px;
+    border-radius: 18px;
+    border: 2px solid transparent;
 }
 
 #ms_jumbotron-games img{
@@ -104,26 +134,51 @@ body{
     background-color: rgba(190,188,187,255);
 }
 /* DISCOUNT STYLE */
+#ms_discount{
+}
+
 /* BANNER-PS-NOW STYLE */
 #ms_banner-ps-now{
     background-color: rgba(22,28,59,255);
 }
 /* SOCIAL MEDIA SECTION */
-
+#ms_social-media-section{
+}
 
 /* IMPORTANT!!! 
     FOOTER-SECTION */
 #ms_footer-container{
     background-color: rgba(0,67,156,255);
+    padding: 50px 0 50px;
 }
 /* LINKS STYLE */
 
 #ms_links ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
 
+}
+
+#ms_links li>a{
+    text-decoration: none;
+    color: white;
 }
 
 /* CREDITS STYLE */
 #ms_ps-credits img{
     width: 150px;
 }
+
+/* IMPORTANT!!! 
+    HOVER EFFECTS */
+
+    #ms_ps-list div.ms_opacity-7:hover{
+        opacity: 1;
+        border-bottom: 2px solid rgba(175,210,239,255);
+        
+    }
+
+    #ms_jumbotron-games .ms_jumbotron-game-image:hover{
+        border-color: rgba(63,148,218,255);
+    }
