@@ -18,8 +18,6 @@ body{
 
 .ms_border-bt{
     border-bottom: 2.5px solid transparent;
-
-    /* border-bottom: 2px solid rgba(175,210,239,255); */
 }
 
 
@@ -53,13 +51,6 @@ body{
     color: black;
 }
 
-.ms_centered{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .ms_p-top-bottom-25{
     padding: 25px 0 25px;
 }
@@ -88,11 +79,11 @@ HEADER-SECTION */
 #ms_sony-logo{
     padding: 5px 10px;
     background-color: black;
+    text-align: end;
 }
 
 #ms_sony-logo img{
     width: 75px;
-    text-align: end;
 }
 
 /* PS-NAV STYLE */
@@ -117,15 +108,12 @@ HEADER-SECTION */
     border: 3px solid transparent;
 }
 
-#ms_jumbotron-games img{
-    width: 100%;
+#ms_jumbotron-games img{  
     border-radius: 15px;
 }
 
 /* PS-LIST STYLE */
-#ms_ps-list img{
-    width: 100%;
-}
+
 
 /* HERO STYLE */
 #ms_hero{
@@ -154,16 +142,14 @@ HEADER-SECTION */
     height: 100%;
 }
 /* DISCOUNT STYLE */
-/* #ms_discount{
-} */
+
 
 /* BANNER-PS-NOW STYLE */
 #ms_banner-ps-now{
     background-color: rgba(22,28,59,255);
 }
 /* SOCIAL MEDIA SECTION */
-/* #ms_social-media-section{
-} */
+
 
 /* IMPORTANT!!! 
     FOOTER-SECTION */
